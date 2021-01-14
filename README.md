@@ -1,1 +1,3 @@
-# dynamic-programming problems, basically the solutions to problems sets in leetcode
+# dynamic-programming 
+
+Basically, the solutions to problems sets in leetcode
