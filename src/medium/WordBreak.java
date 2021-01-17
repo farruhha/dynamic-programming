@@ -32,7 +32,7 @@ public class WordBreak {
     }
 
     /**
-     * By recursive solution
+     * By Recursion
      */
     boolean isPossibleByRecursion(String s, List<String> wordDict) {
         if (s.isEmpty()) return true;
