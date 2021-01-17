@@ -10,6 +10,9 @@ public class WordBreak {
         return isPossibleByRecursion(s, wordDict);
     }
 
+    /**
+     * By Dynamic Programming and Memoization
+     * */
     boolean isPossibleByMemo(String s, List<String> wordDict, Map<String, Boolean> memo) {
         if (memo.containsKey(s)) return memo.get(s);
         if (s.isEmpty()) return true;
