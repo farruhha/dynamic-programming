@@ -1,10 +1,7 @@
 package hard;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-
-import static java.util.stream.Collectors.toList;
 
 public class WordBreakII {
 
