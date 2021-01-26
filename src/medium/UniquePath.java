@@ -28,7 +28,7 @@ public class UniquePath {
     }
 
     /**
-     * By memoization
+     * By memoization, using dynamic programming
      * */
     private int calculateByDpMemo(int m, int n, Map<String, Integer> memo){
         String key = m+","+n;
